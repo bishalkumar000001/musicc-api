@@ -949,7 +949,7 @@ def download_audio_sync(
     opts.update({
 
         "format":
-            "140/ba[ext=m4a]/bestaudio/best",
+            "18/bestaudio/best",
 
         "writethumbnail":
             False,
@@ -972,7 +972,7 @@ def download_audio_sync(
         "extractor_args": {
 
             "youtube": [
-                "player_client=android_vr,web_embedded"
+                "player_client=web_embedded"
             ]
         },
 
@@ -1299,7 +1299,7 @@ def download_video_sync(
             f"bv*[height<={MAX_VIDEO_QUALITY}]"
             f"[ext=mp4]+ba[ext=m4a]/"
             f"b[height<={MAX_VIDEO_QUALITY}]"
-            f"[ext=mp4]/best",
+            f"[ext=mp4]/18/best",
 
         "merge_output_format":
             "mp4",
@@ -1313,7 +1313,7 @@ def download_video_sync(
         "extractor_args": {
 
             "youtube": [
-                "player_client=android_vr,web_embedded"
+                "player_client=web_embedded"
             ]
         },
 
