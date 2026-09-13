@@ -972,7 +972,7 @@ def download_audio_sync(
         "extractor_args": {
 
             "youtube": [
-                "player_client=default,web_embedded"
+                "player_client=android_vr,web_embedded"
             ]
         },
 
@@ -1313,7 +1313,7 @@ def download_video_sync(
         "extractor_args": {
 
             "youtube": [
-                "player_client=default,web_embedded"
+                "player_client=android_vr,web_embedded"
             ]
         },
 
